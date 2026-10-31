@@ -9,6 +9,7 @@
 
 基于Codex的Agent skill，能够通过课堂ppt，作业，课堂录音来整理知识框架和复习指引。
 对于一些不是“上课1+1,考试造飞机”的选修课，经测试可以预测接近一半的考题，亲测有效：
+
 预测：
 <img width="720" height="663" alt="image" src="https://github.com/user-attachments/assets/b49f9987-a06a-4739-9a90-dcaa8488eac0" />
 <img width="591" height="638" alt="image" src="https://github.com/user-attachments/assets/e9055b4e-7d4b-464c-9fa2-8c37cd70fa97" />
