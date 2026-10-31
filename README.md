@@ -9,7 +9,17 @@
 
 基于Codex的Agent skill，能够通过课堂ppt，作业，课堂录音来整理知识框架和复习指引。
 对于一些不是“上课1+1,考试造飞机”的选修课，经测试可以预测接近一半的考题，亲测有效：
-<img width="155" height="155" alt="image" src="https://github.com/user-attachments/assets/c7122bc7-1183-47b4-aa96-af767e3a88fd" />
+预测：
+<img width="720" height="663" alt="image" src="https://github.com/user-attachments/assets/b49f9987-a06a-4739-9a90-dcaa8488eac0" />
+<img width="591" height="638" alt="image" src="https://github.com/user-attachments/assets/e9055b4e-7d4b-464c-9fa2-8c37cd70fa97" />
+考题：
+<img width="972" height="626" alt="image" src="https://github.com/user-attachments/assets/89dce5df-4226-4fb6-a61d-56be05e0fd2b" />
+<img width="721" height="662" alt="image" src="https://github.com/user-attachments/assets/563a87ce-d1d8-45af-bc30-1aba81363e6c" />
+<img width="807" height="688" alt="image" src="https://github.com/user-attachments/assets/098fa797-e2f9-4652-a9f3-65e8825a377f" />
+这门课主播课上基本没听或者听不懂，但是幸亏到了AI时代.....
+<img width="993" height="273" alt="image" src="https://github.com/user-attachments/assets/ab56ce2a-7196-495d-95a0-8f506b6ac9ca" />
+<img width="1009" height="328" alt="image" src="https://github.com/user-attachments/assets/f807d686-87d1-48cd-8b4b-f5fb49435d2b" />
+<img width="746" height="558" alt="image" src="https://github.com/user-attachments/assets/75dc3146-8264-46a5-be89-c4a24b99b0a1" />
 
 ## 安装
 
