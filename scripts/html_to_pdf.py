@@ -49,7 +49,9 @@ def main():
     url = "file:///" + str(html_path).replace("\\", "/")
     cmd = [
         str(browser), "--headless", "--disable-gpu",
-        "--no-pdf-header-footer", "--print-to-pdf=" + str(out_path), url,
+        "--no-pdf-header-footer", "--virtual-time-budget=20000",
+        "--run-all-compositor-stages-before-draw",
+        "--print-to-pdf=" + str(out_path), url,
     ]
     subprocess.run(cmd, check=False, capture_output=True, timeout=180)
     if out_path.exists() and out_path.stat().st_size > 0:

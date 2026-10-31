@@ -89,6 +89,14 @@ def block_to_html(lines, start):
     # 分隔线
     if first.strip() in ("---", "***", "___"):
         return "<hr/>\n", start + 1
+    # 原始 HTML 块（用于内嵌 SVG 概念图等），原样透传不转义
+    if first.lstrip().startswith("<"):
+        buf = [first]
+        i = start + 1
+        while i < len(lines) and lines[i].strip():
+            buf.append(lines[i])
+            i += 1
+        return "".join(x + "\n" for x in buf), i
     # 普通段落（合并到空行）
     buf = [first]
     i = start + 1
